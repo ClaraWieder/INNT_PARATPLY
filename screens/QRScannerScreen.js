@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, Alert, TouchableOpacity } from "react-native";
-// Vi bruger Legacy Camera API, da det er den eneste der virker i dette projekt. Den ny Camera API virker kun med Typescript
-import { Camera, CameraType } from 'expo-camera/legacy';
+import { Camera, useCameraPermissions } from "expo-camera";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { globalStyles } from "../styles/globalStyles";
 import { async } from "@firebase/util";
