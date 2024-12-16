@@ -9,7 +9,6 @@ import MapViewDirections from "react-native-maps-directions";
 import { useNavigation } from "@react-navigation/native";
 import { async } from "@firebase/util";
 
-//const GOOGLE_MAPS_APIKEY = "AIzaSyBSVJLR-vb8B5xBR9ra2XVcyWSMSu5GNSE"; // Tilføj din API nøgle her
 const GOOGLE_MAPS_APIKEY = "DIN_GOOGLE_MAPS_API_KEY"; // Tilføj din API nøgle her
 
 
